@@ -17,4 +17,4 @@ function run_backend() {
 (trap 'kill 0' SIGINT;
   run_frontend &
   run_backend
-)
+)sudo docker compose up -d
